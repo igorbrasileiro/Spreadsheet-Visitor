@@ -79,13 +79,15 @@ def main():
     else:
         for row in values:
             if row[COLUMN_ID] == ID:
-                printInformationFromRow(row)
+                return createMessageFromRow(row)
 
 # this function capture columns that i want print, from row
-def printInformationFromRow(row):
-    print('Notas do aluno: %s' % row[COLUMN_ID])
-    print('Nota1, Nota2, Nota3, Nota4, Media:')
-    print(' %s,   %s,   %s,   %s,   %s' % (row[1], row[2], row[3], row[4], row[6]))
+def createMessageFromRow(row):
+    message = ('Notas do aluno: %s' % row[COLUMN_ID])
+    message += '\nNota1, Nota2, Nota3, Nota4, Media:'
+    message += ('\n %s,   %s,   %s,   %s,   %s' % (row[1], row[2], row[3], row[4], row[6]))
+
+    return message
 
 if __name__ == '__main__':
     main()
