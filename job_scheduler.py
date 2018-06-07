@@ -1,7 +1,7 @@
 import schedule
 import time
 from datetime import datetime
-from quickstart import main
+from sheet_accessor import main
 from gmail_sender import send_mail
 
 def job():
