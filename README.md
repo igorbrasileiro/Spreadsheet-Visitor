@@ -1,6 +1,5 @@
 # capturador_notas_spreadsheet
-python application to capture information from Google Sheet using a scheduler.  
-[PT/BR] aplicação em python para ficar capturando informações de uma Google Sheet em intervalo de tempos usando scheduler
+python application to capture information from Google Sheet using a job scheduler.  
 
 ## Requirements:
 - pip ( install google-api-python-client and schedule );
