@@ -2,8 +2,9 @@
 python application to capture information from Google Sheet using a job scheduler.  
 
 ## Requirements:
-- pip ( install google-api-python-client and schedule );
-- Google Account Developer with sheet api credential;
+- pip install --upgrade google-api-python-client oauth2client
+- pip install schedule 
+- Google Account Developer with sheet api credential
   ( [Tutorial here](https://developers.google.com/sheets/api/quickstart/python) )
   
 ## How use this:
